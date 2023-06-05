@@ -1,5 +1,5 @@
 <?php
-$arr = range(1, 10);
+$arr = range(1, 100000);
 
 function test2(array $arr)
 {
