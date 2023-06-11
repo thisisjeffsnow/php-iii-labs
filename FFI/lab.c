@@ -1,10 +1,11 @@
 #include <stdio.h>
+// need string.h for strcmp
 #include <string.h>
 
 // changed int [] into char* []
 void bubble_sort(char* [], int);
 void bubble_sort(char* list[], int n) {
-    // changed char t into char* t
+    // changed int t into char* t
     int c, d, p;
     char* t;
     for (c = 0 ; c < n - 1; c++) {
